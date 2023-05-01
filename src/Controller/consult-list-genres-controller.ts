@@ -6,6 +6,5 @@ export class ConsultListGenresController{
     async handle(req : Request, res : Response){
         const response = await new ConsultListGenres().execute();
         res.status(response.Code).send(response);
-
     }
 }
