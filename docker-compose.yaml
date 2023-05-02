@@ -3,8 +3,8 @@ services:
   api:
     build: .
     restart: on-failure
-    container_name: satuday-sight-api
-    image: satuday-sight-api
+    container_name: satuday-night-api
+    image: satuday-night-api
     command: npm start
     ports: 
       - "3000:3080"
