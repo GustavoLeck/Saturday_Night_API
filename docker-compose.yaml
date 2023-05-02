@@ -7,7 +7,7 @@ services:
     image: satuday-sight-api
     command: npm start
     ports: 
-      - "3080:3080"
+      - "80:3080"
 
 
 
