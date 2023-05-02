@@ -10,6 +10,7 @@ import Movies from "./Routes/consult-movie-route";
 import Generos from "./Routes/consult-list-genres-route";
 
 
+
 const app = express();
 const port = 3080;
 
@@ -25,5 +26,6 @@ app.use("/api", Generos);
 
 // Inicialização do servidor
 app.listen(port, () => {
+  console.clear();
   console.log(`--Server ON--`);
 });
