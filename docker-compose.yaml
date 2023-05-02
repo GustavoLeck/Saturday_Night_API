@@ -1,13 +1,12 @@
 version: '3.3'
-
-api:
-  build: .
-  restart: always
-  container_name: Satuday-Night-API
-  image: Satuday-Night-API
-  command: npm start
-  ports: 
-   -3080:3080
+services:
+  api:
+    build: .
+    restart: always
+    container_name: Satuday-Night-API
+    image: Satuday-Night-API
+    command: npm start
+    ports: 3080:3080
 
 
 
