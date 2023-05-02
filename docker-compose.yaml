@@ -6,7 +6,7 @@ api:
   container_name: Satuday-Night-API
   image: Satuday-Night-API
   command: npm start
-  port: 
+  ports: 
    -3080:3080
 
 
