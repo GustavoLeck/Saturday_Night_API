@@ -2,8 +2,8 @@ version: '3.3'
 services:
   api:
     build: .
-    restart: always
-    container_name: Satuday-Night-API
+    restart: on-failure
+    container_name: satuday-sight-api
     image: satuday-sight-api
     command: npm start
     ports: 

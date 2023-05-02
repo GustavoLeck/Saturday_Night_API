@@ -1,11 +1,11 @@
 FROM node:18.12.1-alpine
 
-WORKDIR /home/gustavo/git/Saturday_Night_API/
+WORKDIR /usr/app
+
+COPY ./package.json . 
 
 RUN npm i
 
 COPY . . 
-
-EXPOSE 3080
 
 CMD ["npm", "run", 'start']
