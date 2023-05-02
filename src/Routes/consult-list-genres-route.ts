@@ -5,8 +5,6 @@ import { ConsultListGenresController } from "../Controller/consult-list-genres-c
 
 const router = Router();
 
-
-
 router.get('/genres', new ConsultListGenresController().handle)
 
 export default router;
